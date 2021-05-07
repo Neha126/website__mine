@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Index.css"/>
+</head>
+<body>
+ <div class="container">
+   <div class="navbar">
+    <img class="logo" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/1200px-Playstation_logo_colour.svg.png" />
+    <nav>
+      <ul id = "menuList">
+        <li><a href="#">Game controller</a></li>
+        <li><a href="#">vr accessories</a></li>
+        <li><a href="#">media remotes</a></li>
+        <li><a href="#">others</a></li>
+      </ul>
+    </nav>
+    <img class="menu"src="https://www.vippng.com/png/full/78-788602_clipart-freeuse-menu-png-icon-free-download-file.png"  onclick="toggleMenu()">
+   </div>
+   <div class="row">
+     <div class="col-1">
+       <h2>PS4 V2 <br/>Dualshock 4</h2>
+       <h3>Wireless Controller for PlayStation 4</h3>
+       <p>(Compatible/Generic)</p>
+       <h4>$32.50</h4>
+       <button type="button">Buy Now <img class="btn" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWXffwupJnOnq-RXpOn5FsMmZ__HRVtwitCA&usqp=CAU"/> </button>
+     </div>
+      <div class="col-2">
+        <img class="cntrl"  src="https://pngimg.com/uploads/sony_playstation/sony_playstation_PNG17550.png"/>
+        <div class="clr-box"></div>
+        <div class="add-btn">
+          <img class="add-icon" src="https://image.flaticon.com/icons/png/512/2661/2661440.png"/>
+          <p><small>Add to cart</small></p>
+        </div>
+      </div>
+   </div>
+   <div class="social-icon" >
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN7k50LcBON966Y6KLMH0bAYhj0Yp8emSeFw&usqp=CAU"/>
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQGrDd1Rf5-FpchOU869fVTeIvj3Cl-9CiBQ&usqp=CAU"/>
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoxKxzrPDtJEsF8S11ttyvdmGVTvkFgfHgeg&usqp=CAU"/>
+   </div>
+ </div>
+ <script>
+   var menuList = document.getElementById("menuList");
+   menuList.style.maxHeight = "0px";
+   function toggleMenu(){
+     if(menuList.style.maxHeight == "0px")
+     {
+       menuList.style.maxHeight = "130px";
+     }
+     else
+     {
+       menuList.style.maxHeight = "0px";
+     }
+   }
+ </script>
+</body>
+
+</html>
